@@ -1,8 +1,10 @@
 # Base de Datos de Clínica Médica
 
+Este repositorio contiene scripts SQL para crear y gestionar una base de datos relacional diseñada para una clínica médica. La base de datos incluye tablas para almacenar información sobre médicos, pacientes, citas, recetas y medicamentos, así como procedimientos almacenados para realizar operaciones más complejas y consultas para extraer información relevante.
+
 ## Descripción
 
-Este script SQL define la estructura de una base de datos relacional para una clínica médica. Incluye tablas para gestionar información sobre médicos, pacientes, citas, recetas y medicamentos.
+La sección de creation tables, contiene los script SQL que definen la estructura de una base de datos relacional para una clínica médica. Incluye tablas para gestionar información sobre médicos, pacientes, citas, recetas y medicamentos.
 
 ## Tablas
 
