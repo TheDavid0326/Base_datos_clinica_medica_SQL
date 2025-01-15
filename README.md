@@ -38,13 +38,19 @@ La sección de creation tables, contiene los script SQL que definen la estructur
     * `medicine_id`: Identificador del medicamento (clave foránea que referencia a la tabla `medicines`).
 
 ## Relaciones
-* **Relación uno a muchos:**
+* **Relación 1:1:**
+    * Una cita puede tener una receta (tabla `prescriptions`).
+
+* **Relación N:M:**
+    * Una receta puede contener varios medicamentos (tabla `prescriptions_medicines`).
+    * Un medicamento puede estar en varias recetas (tabla `prescriptions_medicines`).
+
+* **Relación 1:N:**
     * Un médico puede tener muchos pacientes (tabla `patients`).
     * Un paciente puede tener muchas citas (tabla `appointments`).
     * Un médico puede tener muchas citas (tabla `appointments`).
-    * Una cita puede tener una o varias recetas (tabla `prescriptions`).
     * Una categoría puede tener muchos medicamentos (tabla `medicines`).
-    * Una receta puede contener varios medicamentos (tabla `prescriptions_medicines`).
+
 
 ## Restricciones
 * **Claves primarias:** Se han definido claves primarias para todas las tablas para garantizar la unicidad de los registros.
